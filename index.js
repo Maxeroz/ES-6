@@ -13,19 +13,32 @@ document.getElementById("example").innerText = example;
 
 // Destructuring objects
 
-const player = {
-    name: "Lebron James",
-    club: "LA Lakers",
-    address: {
-        city: "Los Angeles"
-    }
+// const player = {
+//     name: "Lebron James",
+//     club: "LA Lakers",
+//     address: {
+//         city: "Los Angeles"
+//     }
 
+// }
+
+// console.log( player.address.city)
+// const { name, club, address: { city }} = player;
+// console.log(`${name} plays for ${club}`);
+// console.log(`${name} lives in ${city}`);
+
+// Destructuring objects(Challenge)
+
+const student = {
+    name: "Kyle",
+    age: 24,
+    projects: {
+        diceGame: "Two player dice game using JavaScript"
+    }
 }
 
-console.log( player.address.city)
+const { name, age, projects: {diceGame}} = student;
 
-const { name, club, address: { city }} = player;
-
-console.log(`${name} plays for ${club}`);
-
-console.log(`${name} lives in ${city}`);
+console.log(name);
+console.log(age);
+console.log(diceGame)
