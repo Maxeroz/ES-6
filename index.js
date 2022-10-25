@@ -39,6 +39,14 @@ const student = {
 
 const { name, age, projects: {diceGame}} = student;
 
-console.log(name);
-console.log(age);
-console.log(diceGame)
+// console.log(name);
+// console.log(age);
+// console.log(diceGame);
+
+// Destructuring Arrays
+
+let [firstName, middleName, lastName] = ["Dylan", "Coding God", "Israel"];
+
+lastName = "Clements"
+
+console.log(lastName)
