@@ -46,7 +46,56 @@ const { name, age, projects: {diceGame}} = student;
 // Destructuring Arrays
 
 let [firstName, middleName, lastName] = ["Dylan", "Coding God", "Israel"];
-
 lastName = "Clements"
+// console.log(lastName)
 
-console.log(lastName)
+// Object Literal
+
+// function addressMaker (city, state) {
+//     const newAdress = {city, state} ;
+
+//     console.log(newAdress)
+// }
+// addressMaker("Austin", "Texas")
+
+// Object Literal (Challenge)
+
+// function addressMaker(address) {
+//     const { city, state} = address;
+//     const newAddress = {
+//         city,
+//         state,
+//         country: "United States"
+//     }
+//     console.log(`${newAddress.city}, ${newAddress.state}, ${newAddress.country}`)
+
+// }
+// addressMaker({city: "Austin", state: "Texas"})
+
+// For of Loop
+
+// let incomes = [62000, 67000, 75000];
+// let total = 0;
+
+// for (const income of incomes) {
+//     total += income;
+// }
+// console.log(total)
+
+// let fullName = "Dylan Coding God Israel"
+
+// for (const char of fullName) {
+//     console.log(char)
+// }
+
+// For of Loop (Challenge)
+
+const students = [
+    {name: "John", city: "New York"},
+    {name: "Peter", city: "Paris"},
+    {name: "Kate", city: "Sidney"}
+]
+
+for (const student of students) {
+    console.log(`${student.name} lives in ${student.city}`)
+}
