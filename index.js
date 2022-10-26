@@ -90,12 +90,35 @@ lastName = "Clements"
 
 // For of Loop (Challenge)
 
-const students = [
-    {name: "John", city: "New York"},
-    {name: "Peter", city: "Paris"},
-    {name: "Kate", city: "Sidney"}
-]
+// const students = [
+//     {name: "John", city: "New York"},
+//     {name: "Peter", city: "Paris"},
+//     {name: "Kate", city: "Sidney"}
+// ]
 
-for (const student of students) {
-    console.log(`${student.name} lives in ${student.city}`)
+// for (const student of students) {
+//     console.log(`${student.name} lives in ${student.city}`)
+// }
+
+// Spread Operator
+
+let contacts = ["Mary", "Joel", "Danny"];
+let personalFriends = [ "David", ...contacts, "Lily"];
+
+contacts.push("John")
+
+// console.log(personalFriends)
+
+let person = {
+    name: "Adam",
+    age: 25,
+    city: "Manchester"
 }
+
+let employee = {
+    ...person,
+    salary: 50000,
+    position: "Software Developer"
+}
+
+console.log(employee)
