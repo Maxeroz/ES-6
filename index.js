@@ -131,8 +131,25 @@ lastName = "Clements"
 
 // Rest Operator
 
-function add(...nums) {
-    console.log(nums)
+// function add(...nums) {
+//     console.log(nums)
+// }
+
+// add(4,5,7,8,12)
+
+// Arrow Functions
+// function declaration
+function breakfastMenu() {
+    return "I'm going to scrambled eggs for breakfast";
 }
 
-add(4,5,7,8,12)
+// anonymous function
+const lunchMenu = function() {
+    return "I'm going to eat pizza for lunch";
+}
+
+// arrow function
+
+const dinnderMenu = food => `I'm going to eat ${food} for dinner`;
+
+console.log( dinnderMenu("chicken salad") )
