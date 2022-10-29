@@ -125,7 +125,14 @@ lastName = "Clements"
 
 // Spread Operator (Challenge)
 
-const shoppingList = ["eggs", "milk", "butter"];
+// const shoppingList = ["eggs", "milk", "butter"];
+// const shoppingBasket = [...shoppingList, "ice cream", "bread"];
+// console.log(shoppingBasket)
 
-const shoppingBasket = [...shoppingList, "ice cream", "bread"];
-console.log(shoppingBasket)
+// Rest Operator
+
+function add(...nums) {
+    console.log(nums)
+}
+
+add(4,5,7,8,12)
