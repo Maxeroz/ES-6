@@ -102,23 +102,30 @@ lastName = "Clements"
 
 // Spread Operator
 
-let contacts = ["Mary", "Joel", "Danny"];
-let personalFriends = [ "David", ...contacts, "Lily"];
+// let contacts = ["Mary", "Joel", "Danny"];
+// let personalFriends = [ "David", ...contacts, "Lily"];
 
-contacts.push("John")
+// contacts.push("John")
 
 // console.log(personalFriends)
 
-let person = {
-    name: "Adam",
-    age: 25,
-    city: "Manchester"
-}
+// let person = {
+//     name: "Adam",
+//     age: 25,
+//     city: "Manchester"
+// }
 
-let employee = {
-    ...person,
-    salary: 50000,
-    position: "Software Developer"
-}
+// let employee = {
+//     ...person,
+//     salary: 50000,
+//     position: "Software Developer"
+// }
 
-console.log(employee)
+// console.log(employee)
+
+// Spread Operator (Challenge)
+
+const shoppingList = ["eggs", "milk", "butter"];
+
+const shoppingBasket = [...shoppingList, "ice cream", "bread"];
+console.log(shoppingBasket)
