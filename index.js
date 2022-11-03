@@ -139,17 +139,25 @@ lastName = "Clements"
 
 // Arrow Functions
 // function declaration
-function breakfastMenu() {
-    return "I'm going to scrambled eggs for breakfast";
-}
+// function breakfastMenu() {
+//     return "I'm going to scrambled eggs for breakfast";
+// }
 
 // anonymous function
-const lunchMenu = function() {
-    return "I'm going to eat pizza for lunch";
-}
+// const lunchMenu = function() {
+//     return "I'm going to eat pizza for lunch";
+// }
 
 // arrow function
 
-const dinnderMenu = food => `I'm going to eat ${food} for dinner`;
+// const dinnderMenu = food => `I'm going to eat ${food} for dinner`;
 
-console.log( dinnderMenu("chicken salad") )
+// console.log( dinnderMenu("chicken salad") )
+
+// Default Params
+
+const leadSinger = (artist = "Someone") => {
+    console.log(`${artist} is the lead singer of Cold Play`)
+}
+
+leadSinger()
