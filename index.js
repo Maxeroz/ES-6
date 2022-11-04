@@ -156,8 +156,15 @@ lastName = "Clements"
 
 // Default Params
 
-const leadSinger = (artist = "Someone") => {
-    console.log(`${artist} is the lead singer of Cold Play`)
-}
+// const leadSinger = (artist = "Someone") => {
+//     console.log(`${artist} is the lead singer of Cold Play`)
+// }
 
-leadSinger()
+// leadSinger()
+
+// Default Params (Challenge)
+
+const returnFood = (food = "something") => {
+ return "I'm going to buy " + food + " from the grocery shop"}
+
+console.log(returnFood())
