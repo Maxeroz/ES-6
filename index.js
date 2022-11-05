@@ -164,7 +164,27 @@ lastName = "Clements"
 
 // Default Params (Challenge)
 
-const returnFood = (food = "something") => {
- return "I'm going to buy " + food + " from the grocery shop"}
+// const returnFood = (food = "something") => {
+//  return "I'm going to buy " + food + " from the grocery shop"}
 
-console.log(returnFood())
+// console.log(returnFood())
+
+// Includes
+
+// let numArray = [1,2,3,4,5];
+
+// console.log(numArray.includes(5))
+
+// Includes (Challenge)
+
+const listIngredients = ["flour", "sugar", "eggs", "butter"];
+
+function check() {
+    if (listIngredients.includes("chocolate")) {
+        console.log("We are going to make a chocolate cake")
+    } else {
+        console.log("We can't make a chocolate cake because we are missing the ingredient chocolate")
+    }
+}
+
+check()
