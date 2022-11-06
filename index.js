@@ -1,5 +1,17 @@
-import { add } from "./data.js"
+// Import & Export (Challenge)
 
-const result = add(2,3);
+// import { add } from "./data.js"
 
-console.log(result)
+// const result = add(2,3);
+
+// console.log(result)
+
+// padStart() & padEnd()
+
+// let example = "Dylan";
+
+// console.log(example.padEnd(10, "a"))
+
+// padStart() & padEnd() (Challenge)
+
+// console.log(example.padStart(10).length)
