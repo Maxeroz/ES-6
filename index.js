@@ -15,3 +15,6 @@
 // padStart() & padEnd() (Challenge)
 
 // console.log(example.padStart(10).length)
+
+// Classes
+
